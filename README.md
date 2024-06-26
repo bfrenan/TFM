@@ -6,7 +6,7 @@ La técnica empleada para fine-tuning ha sido QLoRA, mediante un enfoque de Supe
 
 El modelo base es Llama 3 8B instruct, versión cuantizada a 4 bits de Unsloth.
 
-El dataset utilizado fue Linux-APT Dataset 2024.
+El dataset utilizado fue Linux-APT Dataset 2024. Se incluye también en este repositorio en la carpeta 10685643 (para el procesado).
 
 Este dataset fue desarrollado en una infraestructura con el SIEM Wazuh, por lo que se utiliza 3 campos (description, location y level) de las alertas de Wazuh, además del log en sí, para dar contexto al LLM.
 
